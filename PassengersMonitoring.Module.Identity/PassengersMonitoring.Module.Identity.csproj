@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PassengersMonitoring.Data\PassengersMonitoring.Data.csproj" />
+    <ProjectReference Include="..\PassengersMonitoring.Model\PassengersMonitoring.Model.csproj" />
+    <ProjectReference Include="..\PassengersMonitoring.ModuleSharedKernel\PassengersMonitoring.ModuleSharedKernel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Dto\Validators\" />
+    <Folder Include="Application\Repositories\" />
+    <Folder Include="Application\Services\Abstr\" />
+    <Folder Include="Application\Services\Impl\" />
+    <Folder Include="Domain\Repositories\" />
+    <Folder Include="Infrastructure\AutoMapperProfiles\" />
+    <Folder Include="Infrastructure\Repositories\" />
+  </ItemGroup>
+
+</Project>

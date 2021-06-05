@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PassengersMonitoring.Data\PassengersMonitoring.Data.csproj" />
+    <ProjectReference Include="..\PassengersMonitoring.Model\PassengersMonitoring.Model.csproj" />
+    <ProjectReference Include="..\PassengersMonitoring.ModuleSharedKernel\PassengersMonitoring.ModuleSharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
